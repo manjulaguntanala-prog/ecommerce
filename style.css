@@ -83,3 +83,97 @@
     }
 
 }
+/* =========================
+   WISHLIST BUTTON
+   ========================= */
+
+.wishlist-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+
+    background: #ff4081;
+    color: white;
+
+    border-radius: 5px;
+}
+
+.wishlist-button:hover {
+    opacity: 0.9;
+}
+
+
+.remove-wishlist {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+
+    background: #dc3545;
+    color: white;
+
+    border-radius: 5px;
+}
+
+
+/* =========================
+   LOGIN
+   ========================= */
+
+.login-container {
+
+    max-width: 450px;
+
+    margin: 50px auto;
+
+    padding: 30px;
+
+    background: white;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 3px 10px rgba(0,0,0,0.1);
+
+}
+
+.login-container h2 {
+
+    text-align: center;
+
+    margin-bottom: 20px;
+
+}
+
+.login-container label {
+
+    display: block;
+
+    margin-top: 15px;
+
+    margin-bottom: 5px;
+
+    font-weight: bold;
+
+}
+
+.login-container input {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 5px;
+
+}
+
+#loginMessage {
+
+    text-align: center;
+
+    margin-top: 15px;
+
+    font-weight: bold;
+
+}
